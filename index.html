@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style type="text/css">
+    *{
+     margin: 0;
+     padding: 0;   
+    }
+    body{
+        background-image: url(img7.jpg);
+        background-position: center;
+        background-size: cover;
+        font-family: sans-serif;
+        margin-top: 40px;
+        }
+    .regform{
+            width: 900px;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: auto;
+            color: #FFFFFF;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+            border-radius: 15px 15px 0px 0px;
+            }
+    .main{
+        background-color: rgb(0,0,0,0.5);
+        width: 900px;
+        margin: auto;
+        }
+    form{
+        padding: 10px;
+        }
+#name{
+        width: 7%;
+        height: 75px;
+    }
+.name{
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700px;
+    }
+.firstname{
+        position: relative;
+        left: 250px;
+        top: -30px;
+        line-height: 40px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555;
+    }
+.lastname{
+        position: relative;
+        left: 550px;
+        top: -92px;
+        line-height: 40px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555;
+    }
+.firstlabel{
+            position: relative;
+            color: white;
+            text-transform: capitalize;
+            font-size: 12px;
+            left: 251px;
+            top: -30px;
+            }
+.lastlabel{
+            position: relative;
+            color: white;
+            text-transform: capitalize;
+            font-size: 12px;
+            left: 552px;
+            top: -92px;
+        }
+.company{
+        position: relative;
+        left: 250px;
+        top: -30px;
+        line-height: 40px;
+        width: 420px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555;    }
+.email{
+        position: relative;
+        left: 250px;
+        top: -30px;
+        line-height: 40px;
+        width: 420px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555;   
+    }
+.code{
+        position: relative;
+        left: 250px;
+        top: -30px;
+        line-height: 40px;
+        width: 50px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555;
+    }
+.number{
+        position: relative;
+        left: 200px;
+        top: -30px;
+        line-height: 40px;
+        width: 200px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555;
+    }
+.area_code{
+        position: relative;
+        color: #E5E5E5;
+        text-transform: capitalize;
+        font-size: 13px;
+        left: 150px;
+        top: 0px;
+    }
+.phone_number{
+    position: relative;
+        color: #E5E5E5;
+        text-transform: capitalize;
+        font-size: 13px;
+        left: -50px;
+        top: 0px;
+            }
+.option{
+        position: relative;
+        left: 250px;
+        top: -30px;
+        line-height: 40px;
+        width: 180px;
+        height: 40px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 13px;
+        color: #555;
+        outline: none;
+        overflow: hidden;
+        }
+  .option option{
+            font-size: 13px;
+        }
+
+button{
+        background-color: #3BAF9F;
+        display: inline-block;
+        margin: 30px 0px 0px 30px;
+        margin-left: 550px;
+        text-align: center;
+        border-radius: 15px;
+        border: 2px solid #366473;
+        padding: 14px 90px;
+       }
+    </style>
+</head>
+<body>
+    <div class="regform"><h1>Registration Form</h1></div>
+    <div class="main">
+        <form>
+            <div id="name">
+             <h2 class="name">Name :</h2>
+             <input class="firstname" type="rext" name="first_name"><br>
+             <label class="firstlabel">first name</label>
+             <input class="lastname" type="text" name="last_name">
+             <label class="lastlabel">last name</label>
+            </div>
+
+            <h2 class="name">Company :</h2>
+            <input class="company" type="text" name="company">
+
+            <h2 class="name">Email :</h2>
+            <input class="email" type="text" name="email">
+
+            <h2 class="name">Phone :</h2>
+            <input class="code" type="number" name="area_code">
+            <label class="area_code">Area Code</label>
+            <input class="number" type="number" name="phone">
+            <label class="phone_number">Phone Number</label>
+
+            <h2 class="name">Subject :</h2>
+            <select class="option" name="name" id="">
+            <option disabled="disabled" selected="selected">Choose Option</option>
+            <option>Programmer</option>
+            <option>Web Developer</option>
+            <option>Designer</option>
+
+
+            </select>
+
+            <button type="submit">Register</button>
+
+        </form>
+    </div>
+</body>
+</html>
